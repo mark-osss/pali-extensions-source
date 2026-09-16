@@ -117,6 +117,8 @@ jobs:
       needs.prepare.outputs.delete != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    permissions:
+      contents: write
     steps:
       - name: Download APK artifacts
         if: needs.build.result == 'success'
@@ -134,8 +136,6 @@ jobs:
       - name: Checkout repo branch
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          repository: mark-osss/pali-extensions
-          token: ${{ secrets.BOT_PAT }}
           ref: repo
           path: repo
           persist-credentials: true
@@ -143,7 +143,7 @@ jobs:
       - name: Publish and deploy repo
         env:
           DELETE: ${{ needs.prepare.outputs.delete }}
-          GH_TOKEN: ${{ secrets.BOT_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd repo
           pip install protobuf
