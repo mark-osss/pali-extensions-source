@@ -28,7 +28,7 @@ Issues are up-for-grabs for any developer if there is no assigned user already.
 
 Contributions are welcome!
 
-Check out the repo's [issue backlog](https://github.com/mark-osss/pali-extensions-source/issues) for source requests and bug reports. This fork tracks the upstream Keiyoushi repository; see [CONTRIBUTING.md](CONTRIBUTING.md).
+Check out the repo's [issue backlog](https://github.com/mark-osss/pali-extensions-source/issues) for source requests and bug reports. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
