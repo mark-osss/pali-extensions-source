@@ -3011,12 +3011,12 @@
   },
   "eu.kanade.tachiyomi.extension.en.hentaisco": {
     "apk": {
-      "name": "tachiyomi-en.hentaisco-v1.6.55.apk",
-      "sha256": "a9710cb945c2e1ea26e9bdb83ef0f7116dff63ec85db6acf0fe505b35d91894f"
+      "name": "tachiyomi-en.hentaisco-v1.6.1.apk",
+      "sha256": "32baa524cd3b2205159666f01a98851a702facd3bdb91e7d87132c45420bce3b"
     },
     "jar": {
-      "name": "tachiyomi-en.hentaisco-v1.6.55.jar",
-      "sha256": "2308f38b2ea2b76319afb2ff6b6cf23159fe11712f2a8788ef171008c8003adb"
+      "name": "tachiyomi-en.hentaisco-v1.6.1.jar",
+      "sha256": "2fea99fc67728d95239879856b7fbfe3483590901b9c2a424212ad8139203e44"
     }
   },
   "eu.kanade.tachiyomi.extension.en.hentaixcomic": {

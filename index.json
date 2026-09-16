@@ -12394,13 +12394,13 @@
         "name": "HentaiSco",
         "packageName": "eu.kanade.tachiyomi.extension.en.hentaisco",
         "resources": {
-          "apkUrl": "https://github.com/mark-osss/pali-extensions-source/releases/download/8d12b1b-0/tachiyomi-en.hentaisco-v1.6.55.apk",
+          "apkUrl": "https://github.com/mark-osss/pali-extensions-source/releases/download/8a5e743/tachiyomi-en.hentaisco-v1.6.1.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/mark-osss/pali-extensions-source@main/src/en/hentaisco/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/mark-osss/pali-extensions-source/releases/download/8d12b1b-0/tachiyomi-en.hentaisco-v1.6.55.jar"
+          "jarUrl": "https://github.com/mark-osss/pali-extensions-source/releases/download/8a5e743/tachiyomi-en.hentaisco-v1.6.1.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106055",
-        "versionName": "1.6.55",
+        "versionCode": "106001",
+        "versionName": "1.6.1",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
