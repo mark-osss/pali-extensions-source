@@ -1,10 +1,9 @@
 {
-  "name": "Keiyoushi",
-  "badgeLabel": "KEI",
+  "name": "Pali",
+  "badgeLabel": "PALI",
   "signingKey": "8a039d6a5869bbebf921e42706e474fbbd7ab9d24dbd6b556ebb9b302a3f4631",
   "contact": {
-    "website": "https://keiyoushi.github.io",
-    "discord": "https://discord.gg/3FbCpdKbdY"
+    "website": "https://github.com/mark-osss/pali-extensions"
   },
   "extensionList": {
     "extensions": [
