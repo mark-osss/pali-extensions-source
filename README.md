@@ -8,7 +8,7 @@
 
 ## Usage
 
-Fork of the [Keiyoushi extensions](https://github.com/keiyoushi/extensions) project, published under the `Pali` extension repo.
+Fork of the original open-source extensions project, published under the `Pali` extension repo.
 
 * Add the repo from [Mihon](https://mihon.app) > Settings > Extensions > Extension repos.
 * Repo URL: https://raw.githubusercontent.com/mark-osss/pali-extensions/repo/repo.json
