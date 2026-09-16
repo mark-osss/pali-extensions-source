@@ -6,13 +6,20 @@ plugins {
 
 keiyoushi {
     name = "HentaiSco"
-    versionCode = 0
+    versionCode = 1
     contentWarning = ContentWarning.NSFW
     libVersion = "1.6"
-    theme = "madara"
 
     source {
         lang = "en"
         baseUrl = "https://hentaisco.cc"
     }
+
+    deeplink {
+        path("/hentai/..*")
+    }
+}
+
+dependencies {
+    implementation(project(":lib:randomua"))
 }
