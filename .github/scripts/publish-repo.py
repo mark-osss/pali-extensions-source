@@ -183,12 +183,11 @@ final_extensions.extend(ext for ext, _, _, _, _ in new_extensions)
 final_extensions.sort(key=lambda ext: ext.packageName)
 
 index = index_pb2.Index(
-    name="Keiyoushi",
-    badgeLabel="KEI",
+    name="Pali",
+    badgeLabel="PALI",
     signingKey="8a039d6a5869bbebf921e42706e474fbbd7ab9d24dbd6b556ebb9b302a3f4631",
     contact=index_pb2.Contact(
-        website="https://keiyoushi.github.io",
-        discord="https://discord.gg/3FbCpdKbdY",
+        website="https://github.com/mark-osss/pali-extensions",
     ),
     extensionList=index_pb2.ExtensionList(extensions=final_extensions),
 )
